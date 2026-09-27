@@ -1,0 +1,145 @@
+Algoritmo ejercios
+		
+		Definir x Como Real
+		Definir a, b, c, d, v Como Entero
+		Definir m, n, p, r, s, q, t Como Real
+		
+		
+		// PUNTO 1
+		Escribir "PUNTO 1"
+		
+		
+		x <- (2 + 3) * 6
+		Escribir "1.a) x = ", x
+		
+		x <- (12 + 6) / 2 * 3
+		Escribir "1.b) x = ", x
+		
+		x <- (2 + 3) / 4
+		Escribir "1.c) x = ", x
+		
+		x <- (2 + 3) MOD 4 + 1
+		Escribir "1.d) x = ", x
+		
+		x <- 2^2 + 3 - 2 * (5 MOD 2)
+		Escribir "1.g) x = ", x
+		
+		
+		
+		// PUNTO 2
+		Escribir ""
+		Escribir "PUNTO 2"
+		
+		
+		a <- 6
+		b <- 2
+		c <- 3
+		
+		x <- a - b + c
+		Escribir "2.a) Resultado = ", x
+		
+		x <- a * b / c
+		Escribir "2.b) Resultado = ", x
+		
+		x <- (a * c) MOD c
+		Escribir "2.c) Resultado = ", x
+		
+		x <- c^b + c * b
+		Escribir "2.e) Resultado = ", x
+		
+		
+		// PUNTO 3
+		Escribir ""
+		Escribir "PUNTO 3"
+		
+		
+		// Valor inicial de v
+		v <- 5
+		
+		//Inciso_3.a 
+		a <- 3
+		b <- 0
+		c <- a + b
+		b <- a + b
+		a <- b
+		
+		Escribir ""
+		Escribir "3.a)"
+		Escribir "a = ", a
+		Escribir "b = ", b
+		Escribir "c = ", c
+		Escribir "v = ", v
+		
+		//Inciso_3.b
+		a <- 10
+		b <- 5
+		a <- b
+		b <- a
+		
+		Escribir ""
+		Escribir "3.b)"
+		Escribir "a = ", a
+		Escribir "b = ", b
+		Escribir "v = ", v
+		
+		//Inciso_3.c
+		a <- 1
+		b <- 4
+		c <- a + b
+		d <- a - b
+		a <- c + 2 * b
+		b <- c + b
+		c <- a * b
+		d <- b + d
+		
+		Escribir ""
+		Escribir "3.c)"
+		Escribir "a = ", a
+		Escribir "b = ", b
+		Escribir "c = ", c
+		Escribir "d = ", d
+		Escribir "v = ", v
+		
+		//Inciso_3.d 
+		a <- 8
+		b <- 5
+		c <- 0
+		c <- c + a
+		a <- a + c - 2 * b
+		b <- b + b
+		a <- c
+		b <- v
+		
+		Escribir ""
+		Escribir "3.d)"
+		Escribir "a = ", a
+		Escribir "b = ", b
+		Escribir "c = ", c
+		Escribir "v = ", v
+		
+		
+		// PUNTO 4
+		Escribir "PUNTO 4"
+		
+		escribir "valor de m:"
+		leer m 
+		escribir "valor de n:"
+		leer n
+		escribir "valor de p:"
+		leer p
+		escribir "valor de r:"
+		leer r
+		escribir "valor de s:"
+		leer s
+		escribir "valor de q:"
+		leer q
+		escribir "valor de t:"
+		leer t
+
+		Escribir "4.a) (m + n) / n"
+		Escribir "4.b) (m + n / p) / (p - r / s)"
+		Escribir "4.c) (m + 4) / (p - q)"
+		Escribir "4.d) (c * r * t) / 100"
+		
+		
+FinAlgoritmo	
